@@ -1,5 +1,6 @@
 services:
-  build:
+  flaskapp:
+     build:
       context: .
     container_name: flask-app
     ports:

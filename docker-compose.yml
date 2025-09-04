@@ -2,8 +2,7 @@ version: "3.9"
 
 services:
   flaskapp:
-    build:
-      context: .
+    image: krishnavats56/flask-app:latest
     container_name: flask-app
     ports:
       - "80:80"

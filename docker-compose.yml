@@ -1,0 +1,6 @@
+services:
+   build:
+      context: .
+    container_name: flask-app
+    ports:
+      - "80:80"
